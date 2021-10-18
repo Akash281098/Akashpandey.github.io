@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive personal portfolio website design tutorial</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> -->
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <!-- <header>
+
+        <div id="menu" class="fas fa-bars"></div>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#service">service</a>
+            <a href="#education">education</a>
+            <a href="#portfolio">portfolio</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <a href="Resume.pdf" class="btn">download CV</a>
+
+        <div class="scroll-bar"></div>
+
+    </header> -->
+
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#" style="font-size: large;"><img src="images/logo1.png" width="70px" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#" style="font-size: 15px;">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" style="font-size: 15px;">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 15px;">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                        </li> -->
+                    </ul>
+                    <form class="d-flex">
+
+                        <a href="Resume.pdf"><button class="btn btn-outline-success" type="submit">Download CV</button></a>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+    <div class="img1">
+        <img src="images/ap2.png" alt="">
+    </div>
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3 class="hello">hi, there!</h3>
+            <h3 class="name">i'm <span>Akash Pandey</span></h3>
+            <p style="text-transform: none;">Front End developer with broad knowledge and skills able to build a
+                Web presence from the ground up -- from concept and Adobe PS with
+                HTML, CSS and JavaScript.</p>
+            <p style="text-transform: none; display: none;" id="mypara">
+                Skilled at writing well-designed, testable and readable code using
+                current best practices in Web development.
+                Experience to build responsive web pages from scratch & using
+                Bootstrap and create animation in web pages with JavaScript.
+                <br>
+                <br>
+                - Great Knowledge of HTML, CSS and
+                Javascript. <br>
+                - Well skilled to make a rersponsive website
+                from Scratch. <br>
+                - Got excellent skills to use Bootstrap for
+                making responsive websites. <br>
+                - I have worked with WordPress and made
+                beautiful websites using its plugins like
+                elementor, WP form, woocommerce
+                and tutor. <br>
+                - Learned Python and Javascript as
+                Programming languages. Automated
+                many of the works with the help of
+                python.
+            </p>
+            <button onclick="myFunction()" id="btnone" style="cursor: pointer;" class="btn">About me</button>
+        </div>
+        <div class="img">
+            <img src="images/ap2.png" width="380px" style="border-radius: 20px; margin-left: 10px;" alt="">
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about1" id="about1">
+
+        <h1 class="heading">about me</h1>
+
+        <div class="row1">
+
+            <div class="progress-bar1">
+
+                <h3 class="title">my skills</h3>
+
+                <div class="progress1 ">
+                    <h3>HTML <span>95%</span></h3>
+                    <div class="bar html"><span></span></div>
+                </div>
+                <div class="progress1 ">
+                    <h3>CSS <span>85%</span></h3>
+                    <div class="bar css"><span></span></div>
+                </div>
+                <div class="progress1 ">
+                    <h3>Javascript <span>80%</span></h3>
+                    <div class="bar js"><span></span></div>
+                </div>
+
+            </div>
+
+            <div class="presonal-info">
+
+                <h3 class="title">presonal info</h3>
+
+                <div class="box-container">
+
+                    <div class="box">
+                        <h3> <span> full name : </span> Akash Pandey </h3>
+                        <h3> <span> age : </span> 23 years </h3>
+                        <h3 style="text-transform: lowercase;"> <span> email : </span> ap73292@gmail.com </h3>
+                        <h3> <span> phone : </span> +91-7011149756 </h3>
+                    </div>
+                    <div class="box">
+                        <h3> <span> experience : </span> 2 years </h3>
+                        <h3> <span> address : </span> Prayagraj, india </h3>
+                        <h3> <span> language : </span> hindi, english </h3>
+                        <h3> <span> freelance : </span> available </h3>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="counter">
+
+            <div class="box">
+                <h3>>>2+</h3>
+                <p>years of experience</p>
+            </div>
+            <div class="box">
+                <h3>>>240+</h3>
+                <p>happy clients</p>
+            </div>
+            <div class="box">
+                <h3>>>100+</h3>
+                <p>project completed</p>
+            </div>
+            <div class="box">
+                <h3>>>45+</h3>
+                <p>awards won</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- service section starts  -->
+
+    <section class="service" id="service">
+
+        <h1 class="heading">my services</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <span class="number">01</span>
+                <h3>HTML, Css</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, accusamus!</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <span class="number">02</span>
+                <h3>web design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, accusamus!</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <span class="number">03</span>
+                <h3>Javascript</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, accusamus!</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <span class="number">04</span>
+                <h3>Node.JS, MongoDb</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, accusamus!</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <span class="number">05</span>
+                <h3>Tally ERP 9</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, accusamus!</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <span class="number">06</span>
+                <h3>freelancing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, accusamus!</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- service section ends -->
+
+    <!-- education section starts  -->
+
+    <section class="education" id="education">
+
+        <h1 class="heading"> education and experience </h1>
+
+        <div class="row">
+
+            <div class="column">
+
+                <h3 class="title">my education</h3>
+
+                <div class="box">
+                    <div class="year"> <i class="fas fa-calendar"></i> 2015- 2017</div>
+                    <h3>Intermediate School- CBSE, Delhi 110041</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita perferendis eveniet consectetur
+                        incidunt fuga quos, et cumque corporis natus veniam.</p>
+                </div>
+                <div class="box">
+                    <div class="year"> <i class="fas fa-calendar"></i> 2017- 2020 </div>
+                    <h3>Bachelor of Arts- Allahabad State University</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita perferendis eveniet consectetur
+                        incidunt fuga quos, et cumque corporis natus veniam.</p>
+                </div>
+                <div class="box">
+                    <div class="year"> <i class="fas fa-calendar"></i> 2021 - Pursuing </div>
+                    <h3>PGDCA from Government Unnao College</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita perferendis eveniet consectetur
+                        incidunt fuga quos, et cumque corporis natus veniam.</p>
+                </div>
+
+            </div>
+
+            <div class="column">
+
+                <h3 class="title">my experience</h3>
+
+                <div class="box">
+                    <div class="year"> <i class="fas fa-calendar"></i> 2018 - 2019 </div>
+                    <h3>web designing</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita perferendis eveniet consectetur
+                        incidunt fuga quos, et cumque corporis natus veniam.</p>
+                </div>
+                <div class="box">
+                    <div class="year"> <i class="fas fa-calendar"></i> 2019 - 2020 </div>
+                    <h3>web development </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita perferendis eveniet consectetur
+                        incidunt fuga quos, et cumque corporis natus veniam.</p>
+                </div>
+                <div class="box">
+                    <div class="year"> <i class="fas fa-calendar"></i> 2020 - 2021 </div>
+                    <h3>HTMl, CSS, Javascript</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita perferendis eveniet consectetur
+                        incidunt fuga quos, et cumque corporis natus veniam.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- education section ends -->
+
+    <!-- portfolio section starts  -->
+
+    <section class="portfolio" id="portfolio">
+
+        <h1 class="heading">my portfolio</h1>
+
+        <div class="box-container">
+
+            <a href="https://wethecoderz.github.io/rudratravel.github.io/" class="box">
+                <img src="images/res2.png" alt="">
+                <div class="info">project 01</div>
+            </a>
+
+            <a href="https://akashcoding.000webhostapp.com/Cloth%20store/Mahadev%20Style%20Hub.html" class="box">
+                <img src="images/1.1.png" alt="">
+                <div class="info">project 02</div>
+            </a>
+
+            <a href="#" class="box">
+                <img src="images/project_3.jpg" alt="">
+                <div class="info">project 03</div>
+            </a>
+
+            <!-- <a href="#" class="box">
+                <img src="images/project_4.jpg" alt="">
+                <div class="info">project 04</div>
+            </a> -->
+
+            <!-- <a href="#" class="box">
+                <img src="images/project_5.jpg" alt="">
+                <div class="info">project 05</div>
+            </a> -->
+
+            <!-- <a href="#" class="box">
+                <img src="images/project_6.jpg" alt="">
+                <div class="info">project 06</div>
+            </a> -->
+
+            <!-- <a href="#" class="box">
+                <img src="images/project_7.jpg" alt="">
+                <div class="info">project 07</div>
+            </a> -->
+
+            <!-- <a href="#" class="box">
+                <img src="images/project_8.jpg" alt="">
+                <div class="info">project 08</div>
+            </a> -->
+
+            <!-- <a href="#" class="box">
+                <img src="images/project_9.jpg" alt="">
+                <div class="info">project 09</div>
+            </a> -->
+
+        </div>
+
+    </section>
+
+    <!-- portfolio section ends -->
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading">contact me</h1>
+
+        <div class="row">
+
+            <form action="">
+
+                <div class="inputBox">
+                    <input type="text" required>
+                    <label>name</label>
+                </div>
+
+                <div class="inputBox">
+                    <input type="email" required>
+                    <label>email</label>
+                </div>
+
+                <div class="inputBox">
+                    <input type="number" required>
+                    <label>phone</label>
+                </div>
+
+                <div class="inputBox">
+                    <input type="text" required>
+                    <label>subject</label>
+                </div>
+
+                <div class="inputBox">
+                    <textarea required name="" id="" cols="30" rows="10"></textarea>
+                    <label>message</label>
+                </div>
+
+                <input type="submit" value="send message" class="btn">
+
+            </form>
+
+            <div class="image">
+                <img src="images/cnt.jpg" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- footer section  -->
+
+    <div class="footer">
+        created by <a href="#">Akash Pandey</a> | all rights reserved!
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("mypara");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            }
+            else {
+                x.style.display = "none";
+            }
+        }
+    </script>
+
+    <!-- custom js file link  -->
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
